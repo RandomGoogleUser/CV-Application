@@ -58,7 +58,7 @@ class App extends Component {
   }
 
   handlePositionChange(event) {
-    this.setState({positon: event.target.value})
+    this.setState({position: event.target.value})
   }
 
   handleTasksChange(event) {
